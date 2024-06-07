@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 
-const calculator: React.FC = () => {
+const Calculator = () => {
     const [expression, setexpression] = useState("")
 
     const handleButtonClick = (value: string) => {
@@ -91,4 +91,4 @@ const calculator: React.FC = () => {
     )
 }
 
-export default calculator
+export default Calculator
